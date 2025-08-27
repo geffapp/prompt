@@ -1,0 +1,174 @@
+ MARKET RESEARCH WORKSHEET
+The Complete Digital Marketing Guide
+
+
+ IDENTIFY AUDIENCE SEGMENT.
+🔍
+
+Purpose:
+Find 3 specific groups of people who are most likely to buy your product. This helps us focus on the right customers and create messages that connect with them.
+
+Instructions:
+Before you can sell anything, you need to know who actually wants to buy it.
+You’ll use AI to help you generate clear audience segments, meaning groups of people who are most likely to want your product or service.
+You’ll use the prompt below to generate 3 strong segments, based on how your product helps people and what needs it solves.
+Once you’ve done that, we’ll move on to the next step: verifying that those audiences are actually being targeted by real brands.
+
+AUDIENCE SEGMENT: 
+
+
+AUDIENCE SEGMENT: 
+
+
+AUDIENCE SEGMENT: 
+
+
+
+
+
+
+
+
+
+
+
+
+Prompt:
+You are assisting in developing a targeted digital marketing strategy. Your task is to analyze the product below and identify audience segments based on real-world use cases.
+Follow these steps carefully:
+1. Read the product description and list of features.  
+2. Based on these, generate 3 specific audience segments. Each segment should represent a distinct type of user who would logically want or benefit from this product (Examples: Parents, Remote Workers, Pet Owners). Avoid vague or combined segment names.
+3. For each segment, briefly explain why they are a strong match. Focus on their context, behavior, or needs, not demographics.
+INPUT:
+My Product Description:  
+[PRODUCT DESCRIPTION]
+My Features:
+[FEATURE 1]  
+[FEATURE 2]  
+[FEATURE 3]  
+[FEATURE 4]  
+[FEATURE 5] (Optional)  
+[FEATURE 6] (Optional)
+
+Output Format:
+Please return results in the following format (no extra commentary):
+
+**Audience Segment:** 
+**Why:**
+
+
+
+ VERIFY AUDIENCE SEGMENTS.
+☑️
+
+Purpose:
+Ensure the audience groups you found have steady demand over time, so you’re focusing on consistent markets.
+
+Instructions:
+In this step you’ll check if your audience segments are being directly targeted by real brands by using AI to scan competitors.
+
+This method is much more powerful than just looking at keywords. 
+While keyword tools show what people search for, competitor targeting shows what companies are actually investing in, which means it’s already working.
+If multiple brands are clearly targeting the same audience segments, you’ll know they’re profitable.
+Use the prompt below to let AI do the main work, it will find and scan 3–5 real competitors and tell you whether your audience segment is clearly and intentionally being targeted.
+You’ll look for your segment mentioned in:
+• Product titles
+• Page headlines
+• Category names or URL paths
+If the segment shows up often and directly, it’s validated.
+If it barely shows up it’s probably not worth pursuing and you’ll move back to the previous instructions to identify new segments.
+
+
+
+
+
+
+
+
+
+
+
+
+Prompt:
+Objective: Determine if a specific audience segment is clearly and intentionally targeted by brands offering similar products to mine.
+Instructions: You are a brand positioning analyst. Your task is to validate whether the audience segment listed above is being clearly and directly targeted by real competitors, one at a time. To qualify:
+1.	Find at least 3–5 competitors that sell similar products.
+2.	Only include a competitor if the segment is explicitly mentioned in:
+•	Product title, H1 or H2 headline, Product category, Product description, SEO title or meta description
+•	URL path (e.g. /for-dog-owners/, /gear-for-hikers/)
+3.	Skip vague or generic mentions. The targeting must be purposeful and unmistakable.
+Output Format (per competitor):
+	•	Brand: [Name of the brand or website]
+	•	Link: [Direct link to product or category page]
+	•	Exact Segment Mention: “…” (copy-paste the explicit phrase)
+	•	Location of Mention: [e.g. product title, H1, URL, etc.]
+	•	Segment Validity Score (0–10): [Rate how directly this targets the audience segment]
+	•	Reasoning: [Briefly explain how clearly this product speaks to the segment, and why it’s a strong or weak example]
+Final Analysis (After All Examples): Summarize whether the segment is clearly validated based on the strength and number of examples. Conclude with one of the following:
+	•	✅ Validated: There’s strong evidence this audience is being directly targeted.
+	•	❓ Partially Validated: Some evidence exists, but targeting is weak or inconsistent.
+	•	❌ Not Validated: Very little or no direct evidence of targeted messaging.
+[Conclusion about whether this segment should be approved]
+Wait for user approval before moving on to the next segment with the following:
+Awaiting Your Input:
+	•	✅ Approve
+	•	❓ Revise
+	•	❌ Reject
+
+ PROBLEMS & SOLUTIONS. 
+💬
+
+Purpose:
+Create clear messages for your audience by linking their problems to how your product solves them.
+
+Instructions:
+In this step you’ll use AI to find out what problems your audience segments struggle with and how your product or service solves them.
+This is how you create messaging that actually gets results — because it’s built on what people truly care about.
+Instead of guessing what to say on your homepage or in your ads, you’ll craft every word around real problems, real desires, and real data.
+That’s what makes people stop, pay attention, and take action.
+
+AUDIENCE SEGMENT: 
+PROBLEM: 
+SOLUTION: 
+KEY MESSAGE: 
+
+AUDIENCE SEGMENT: 
+PROBLEM: 
+SOLUTION: 
+KEY MESSAGE: 
+
+AUDIENCE SEGMENT: 
+PROBLEM: 
+SOLUTION: 
+KEY MESSAGE: 
+
+
+
+
+
+
+
+Prompt:
+Task:
+Now that you have identified three audience segments, your next step is to create targeted marketing messages that resonate deeply with each group.
+
+Instructions:
+For each audience segment, complete the following:
+1.	Problem – Identify the key pain point or challenge this group commonly experiences — something your product is designed to solve.
+
+2.	Solution – Explain clearly how your product addresses that problem, referencing specific features or benefits.
+
+3.	Key Message – Craft a short, impactful marketing message (max 12 words) that communicates the solution in a way that speaks directly to the segment’s need.
+
+●	Focus on clarity, not cleverness.
+
+●	Avoid technical jargon.
+
+●	The message should feel like it could be a headline or ad copy.
+
+Output Format (repeat this for each audience):
+
+**[Audience Segment Name]**
+Problem: [One sentence]
+Solution: [One sentence]
+Key Message: [Short marketing message – 8–12 words]
