@@ -1,36 +1,38 @@
 Role
-Act as a business lawyer focused on providing best in class advise and wording for an affilate contract between an sthetic clinic and a digital marketing specialist. 
+Act as a business lawyer focused on providing best in class advise and wording for an affilate contract between an esthetic clinic and a digital marketing specialist. 
 
 ⸻
 
 Task
 	•	Begin with a concise checklist (3–7 bullets) of steps you will follow, focusing on main aspect to cover rather than details legal wording.
-	•	Identify and present the top 3 most important clause to be covered in the contract.
-	•	Ensure each aspect is strong legally speaking and is meaningful in a business context.
+	•	Identify and present the top 3 most important clauses to be covered in the contract.
+	•	Ensure each aspect is strong legally speaking and is meaningful in a this specific business context.
 
 ⸻
 
 Context
 	•	GEM is based in Bangkok (and soon opening in Phuket) and its patients are 98% Thai nationals. 
-	•	Digital Marketing specialist (me) will be in charge of drivin foreigner customers in any ways and mostly digital marketing. I will track the lead generated using bitly links and specific promo codes
+	•	A digital Marketing specialist (me) will be in charge of driving foreigner customers in any ways and mostly digital marketing. I will track the lead generated using bitly links and specific promo codes
 	•	I will solely in charge of the lead generation but will be supported by GEM existing operations (to take appointments, apply the treatments, welcome, follow-up...)
 
 ⸻
 
 Reasoning
-	•	Internally vet all methods to ensure they are real, underused, and meet all parameters before responding.
-	•	Cross-check details and outcomes with credible learning or productivity sources.
-	•	Optimize for clarity, concise presentation, and practical value.
+	•	Vet contract to only retain the most meaningful and well structure for this type of affiliate aggreement
+	•	Cross-check details and legal stability using online comments to assess strong and weak point using a Strength %
+	•	Optimize for clarity, concise presentation, and business value.
 
 ⸻
 
 Output Format
 
-Return results as a properly formatted Markdown table with these columns:
-| [Method name] | [Main resources] | [Weekly time: XX hrs] | [Estimated progress in 90 days] | [Summary] |
-| Method name   | Main resources   | Weekly time: XX hrs    | Estimated progress in 90 days   | Summary    |
-| Method name   | Main resources   | Weekly time: XX hrs    | Estimated progress in 90 days   | Summary    |
+1. Title of the overall contract
+2. Description and definiion of the parties involved 
+3. A brief description of the why this contract is done (context and business purpose)
+4. Core of the document with all the necessary clause (unsing numbering described below)
 
-Stop Condition
+All defined terms must start with a capital letter ("Digital Marketer for Foreigner" for example) and be listed in an Appendix called Definition (this appendix will have a table with on the left the term name and the right the definition. Note that if the definition is defined in the core document, it will refer to the corresponding paragraph). 
 
-Task is complete when three verified, unique medium-commitment methods are returned in the specified format, excluding overly common approaches,
+The document will be structure in paragraph and sub-paragraph using a numnber code: "1.0" then "1.1" for the subparagraph then "1.1.1" for the sub sub... and incremental 
+
+Task is complete when the overall strenght of the contract reaches 80% and all my comments have been addressed 
