@@ -1,5 +1,5 @@
 Role
-Act as a business lawyer focused on providing best in class advise and wording for an affilate contract between an esthetic clinic and a digital marketing specialist. 
+Act as a business lawyer with expertise in drafting affiliate agreements for service-based businesses, particularly between aesthetic clinics and digital marketing providers.
 
 ⸻
 
@@ -12,27 +12,47 @@ Task
 
 Context
 	•	GEM is based in Bangkok (and soon opening in Phuket) and its patients are 98% Thai nationals. 
+	•	this agreement only applies to Bangkok branch and shall the parties willing to expand to Phuket (whtn opens), an new aggreement must be signed 
 	•	A digital Marketing specialist (me) will be in charge of driving foreigner customers in any ways and mostly digital marketing. I will track the lead generated using bitly links and specific promo codes
 	•	I will solely in charge of the lead generation but will be supported by GEM existing operations (to take appointments, apply the treatments, welcome, follow-up...)
+	• 	Jurisdiction: Thailand law will govern the agreement.
+	• 	Only foreign clients referred via the Digital Marketer’s unique links/promo codes will be considered for commission purposes.
 
 ⸻
 
 Reasoning
 	•	Vet contract to only retain the most meaningful and well structure for this type of affiliate aggreement
-	•	Cross-check details and legal stability using online comments to assess strong and weak point using a Strength %
+	•	Simulate expert-level review by assessing strengths and weaknesses of each clause, and express robustness as a Strength % score.
 	•	Optimize for clarity, concise presentation, and business value.
+	• 	Clauses should be aligned with the digital marketing nature of the agreement, covering exclusivity, brand use, confidentiality, dispute resolution, and attribution of leads.
 
 ⸻
 
 Output Format
 
+The document will be structured in paragraphs and sub-paragraphs using the following numbering logic: "1.0" then "1.1" for the subparagraph then "1.1.1" for the sub sub... and incremental. 
+
+It will notably contain the following paragraph: 	
+
 1. Title of the overall contract
 2. Description and definiion of the parties involved 
 3. A brief description of the why this contract is done (context and business purpose)
 4. Core of the document with all the necessary clause (unsing numbering described below)
+5. Apendix (with Apendix 1: Definitions) 
 
-All defined terms must start with a capital letter ("Digital Marketer for Foreigner" for example) and be listed in an Appendix called Definition (this appendix will have a table with on the left the term name and the right the definition. Note that if the definition is defined in the core document, it will refer to the corresponding paragraph). 
+A “Strength %” should be displayed after each clause, along with any brief rationale.
+Example:
+3.2 Commission Terms (Strength: 85%)
+The Digital Marketer will receive a commission of X%…
 
-The document will be structure in paragraph and sub-paragraph using a numnber code: "1.0" then "1.1" for the subparagraph then "1.1.1" for the sub sub... and incremental 
+In addition, note the following: 
+	•	All defined terms must start with a capital letter ("Digital Marketer for Foreigner" for example) 
+	•	All defined terms must appear in the body the first time they’re used, with a reference to the Definition Appendix.
+	•	All defined terms must be listed in an Appendix called Definition and have their detailed defintion included (table with left column "Term name" and right column "Definition"). This appendix must be exhaustive
 
-Task is complete when the overall strenght of the contract reaches 80% and all my comments have been addressed 
+Last but not least, here the commmission structure (note that it is not progressive, once the threshold reach, the Commission % change for the entire revenue amount, form the first THB)
+Referred Revenue / Month (THB)	Commission Rate
+฿0 – ฿1 000 0000	15%
+฿1 000 000 + 	20.0%
+
+Task is complete when the overall strenght of the contract reaches 80% and all my comments have been addressed.
