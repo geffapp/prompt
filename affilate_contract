@@ -34,11 +34,14 @@ The document will be structured in paragraphs and sub-paragraphs using the follo
 
 It will notably contain the following paragraph: 	
 
-1. Title of the overall contract (this is the cover page, Contract name, parties name, date -- no numbering)
-2. Description and definiion of the parties involved 
-3. A brief description of the why this contract is done (context and business purpose)
-4. Core of the document with all the necessary clause (unsing numbering described below)
-5. Apendix (with Apendix 1: Definitions) 
+0. Title of the overall contract (this is the cover page, Contract name, parties name, date -- no numbering)
+1. Description and definiion of the parties involved 
+2. A brief description of the why this contract is done (context and business purpose)
+3. Core of the document with all the necessary clause (unsing numbering described below)
+Appendix (with Apendix 1: Definitions)
+
+A space will be added after each paragraph or sub-paragraph
+Each paragraph will start on a new page (add a page break just before the paragraph title to do so)
 
 A “Strength %” should be displayed after each clause, along with any brief rationale.
 Example:
