@@ -25,14 +25,6 @@ AUDIENCE SEGMENT:
 
 
 
-
-
-
-
-
-
-
-
 Prompt:
 You are assisting in developing a targeted digital marketing strategy. Your task is to analyze the product below and identify audience segments based on real-world use cases.
 Follow these steps carefully:
@@ -77,14 +69,6 @@ You’ll look for your segment mentioned in:
 • Category names or URL paths
 If the segment shows up often and directly, it’s validated.
 If it barely shows up it’s probably not worth pursuing and you’ll move back to the previous instructions to identify new segments.
-
-
-
-
-
-
-
-
 
 
 
@@ -141,8 +125,6 @@ AUDIENCE SEGMENT:
 PROBLEM: 
 SOLUTION: 
 KEY MESSAGE: 
-
-
 
 
 
