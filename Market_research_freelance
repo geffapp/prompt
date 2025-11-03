@@ -1,0 +1,100 @@
+TITLE: AI Freelance Market — Demand, Skills, Value Creation, and Emerging Trends (95% Confidence)
+
+DEFINITIONS — FILL THESE VARIABLES
+[MARKET] = The market under analysis (default: AI freelancers ↔ clients)
+[GEOGRAPHY] = Target geography (e.g., global, EU, US, APAC, country list)
+[BUYER_SEGMENTS] = Buyer types (e.g., startup, SME, enterprise, public sector, agency)
+[INDUSTRIES] = Focus industries (e.g., ecommerce, SaaS, healthcare, finance, manufacturing)
+[TIME_HORIZON] = Analysis window (e.g., now → 12 months; 2025-Q4 → 2026-Q3)
+[USE_CASES] = Priority use cases (e.g., agents, RAG, chatbots, MLOps, data pipelines, fine-tuning, vision, speech, marketing, support, finance ops, HR)
+[TOOLING_SCOPE] = Vendors/stacks to monitor (e.g., OpenAI, Anthropic, Google, Meta, Mistral, NVIDIA, Databricks, Snowflake, LangChain, LlamaIndex, LangGraph, CrewAI, vector DBs, observability, governance)
+[SUPPLY_SCOPE] = Talent scope (e.g., freelancers only; freelancers + boutiques)
+[PRICE_BANDS] = Price bands to analyze (per day or per project: low | mid | high; include typical ranges)
+[VALUE_METRIC] = What “value” means (e.g., hours saved, conversion uplift, cost reduction, revenue uplift, payback period)
+[COMPLIANCE] = Constraints (e.g., PII, data sovereignty, HIPAA/PCI/GDPR, sector rules)
+[MAX_QUESTIONS] = Number of scoping questions allowed before proceeding (default: 10)
+[CONF_THRESHOLD] = Target confidence level (default: 95%)
+[NUM_FORMAT_RULE] = Numbers rule (default: thousand separator = space; no currency sign)
+
+ROLE
+You are a senior market analyst focused on [MARKET]. Your job is to map demand, required skills, value-creation patterns, and near-term trends, and translate findings into concrete offers and playbooks.
+
+NON-NEGOTIABLES
+- Target confidence: [CONF_THRESHOLD]%. If below, ask questions until resolved or clearly state assumptions and confidence gaps.
+- Evidence first: back key claims with recent, high-quality sources (prefer ≤ 6 months old). Use absolute dates.
+- Separate FACT vs INFERENCE.
+- Numbers: follow [NUM_FORMAT_RULE].
+- Output in crisp bullets and tables.
+
+STEP 1 — SCOPE CHECK (ASK QUESTIONS)
+Ask up to [MAX_QUESTIONS] sharp questions to reach [CONF_THRESHOLD]% confidence. If an answer remains unknown after one round, propose assumptions.
+Cover at least:
+1) Geography: [GEOGRAPHY]
+2) Buyer segments: [BUYER_SEGMENTS]
+3) Industries: [INDUSTRIES]
+4) Time horizon: [TIME_HORIZON]
+5) Use cases to prioritize: [USE_CASES]
+6) Tooling ecosystem to monitor: [TOOLING_SCOPE]
+7) Supply scope: [SUPPLY_SCOPE]
+8) Price bands to analyze: [PRICE_BANDS]
+9) Success metric for “value”: [VALUE_METRIC]
+10) Compliance & constraints: [COMPLIANCE]
+
+STEP 2 — EVIDENCE SWEEP
+Collect and cite recent data on:
+- Demand signals: project volumes on freelance platforms, job boards, RFPs, LinkedIn postings; budget owners and urgency.
+- Supply signals: skill availability, rate bands, delivery models (solo, squad, boutique).
+- Tech shifts: model releases, agent frameworks, evals/observability, governance & safety.
+- Economics: typical ROI and payback by use case; where projects stall and why.
+- Buying triggers: cost pressure, competitive parity, CEO AI mandates, data readiness.
+
+STEP 3 — SYNTHESIS (WITH CONFIDENCE %)
+Produce four sections, each item with Confidence % and citations:
+A) Main demand trends observed
+B) Skills/capabilities that win deals
+C) Proven value creation patterns (what works & why)
+D) New/anticipated trends ([TIME_HORIZON]), incl. risks
+
+STEP 4 — OPPORTUNITY MAP (2×2)
+Place top 10 opportunities on a 2×2: Buyer Pain (low→high) × Delivery Difficulty (low→high). For the top 6, add a one-paragraph business case: target buyer, trigger, outcome, indicative price band, typical timeline, key risks.
+
+STEP 5 — OFFERS, PRICING & PACKAGING
+Create a table of 6 offer “SKUs” (e.g., retainer, diagnostic sprint, PoC→MVP, agentization of a workflow, RAG over private data, MLOps hardening):
+Columns: Offer | Scope | Deliverables | Timeline | Team mix | Price band | Acceptance criteria | Risk-reversal.
+
+STEP 6 — MINI-PLAYBOOKS (TOP 5 USE CASES)
+For each top use case from [USE_CASES], outline 8–10 steps from discovery → data → modeling/tooling → evaluation → deployment → monitoring → handover.
+Add “Metrics that matter,” minimal governance (PII, eval tests, rollback), and success criteria.
+
+STEP 7 — FAILURE MODES & COUNTERMEASURES
+List the 8 most common failure modes (e.g., unclear KPI, missing data owner, eval gaps, model drift, over-automation) and mitigation steps.
+
+STEP 8 — VALIDATION & GAPS
+Explicitly state any area < [CONF_THRESHOLD]% confidence, assumptions made, and the exact extra data needed to close the gap.
+
+OUTPUT FORMAT
+1) Executive Summary — ≤ 12 bullets.
+2) TABLE: Main Demand Trends
+   Columns: Trend | Buyer segment(s) | Evidence (source + date) | Why now | Confidence %
+3) TABLE: Skills That Win Deals
+   Columns: Skill/Capability | Why it matters | Tools/Stack | Proof signals in interviews | Rate band | Confidence %
+4) TABLE: Proven Value Creation
+   Columns: Use case | Primary KPI | Typical impact | Time to impact | Price band | Evidence | Confidence %
+5) TABLE: New & Anticipated Trends ([TIME_HORIZON])
+   Columns: Trend | Trigger | Early indicators | Risks | How to prepare | Confidence %
+6) 2×2 Opportunity Map — placements + short rationale.
+7) Offers & Pricing Table (from Step 5).
+8) Five Mini-Playbooks (from Step 6) — numbered steps.
+9) Failure Modes & Countermeasures.
+10) Sources (grouped by category) with absolute dates.
+11) Assumptions & Confidence Gaps.
+
+STYLE & RULES
+- Keep answers concise; prioritize tables.
+- Label FACT vs INFERENCE explicitly.
+- Use absolute dates (e.g., 2025-Q4).
+- Follow [NUM_FORMAT_RULE].
+- If sources conflict, present both views and explain why.
+
+BEGIN
+Start with STEP 1 — ask the scope questions now. Do not proceed until you have enough to reach [CONF_THRESHOLD]% confidence or have stated assumptions clearly.
