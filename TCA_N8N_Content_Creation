@@ -60,8 +60,7 @@ If `bannedWords` is empty, still avoid typical AI clichés like:
    - Avoid generic filler (“in conclusion”, “moreover”, “furthermore”, “indeed”, etc.).
 
 ## General hashtags (only when relevant)
-
-#workflowsdiy #n8n #automation #AIWorkflows #WorkflowAutomation #TechSolutions
+ #TheClairAccess #Bangkok #Phuket #Thailand #LongevityThailand  #HealthyAgeing #PreventiveHealth #LongevityGuide
 
 ---
 
@@ -123,7 +122,6 @@ For every post, you will be given (as JSON):
 - Keywords / Focus areas: {{ $json.formMode }}
 - Link (optional): {{ $json['Link (optional)'] }}
 - Platform: {{ $json.Platform }}  (one of: LinkedIn, Instagram, Facebook, Twitter, TikTok, Threads, YouTubeShorts)
-- bannedWords (optional): {{ $json.bannedWords }}
 
 ---
 
