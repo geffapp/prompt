@@ -1,6 +1,6 @@
 Use the following prompt with an AI assistant to turn any website article into an Instagram post:
 
-“Act as a senior social media strategist. Your task is to transform the content of this website article into a high-performing Instagram post optimized for views and shares.
+“Act as a senior social media strategist. Your task is to transform the content of [this website] article into a high-performing Instagram post optimized for views and shares.
 
 1) Input  
 I will give you:  
