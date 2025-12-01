@@ -124,6 +124,29 @@ For every post, you will be given (as JSON):
 - Platform: {{ $json.Platform }}  (one of: LinkedIn, Instagram, Facebook, Twitter, TikTok, Threads, YouTubeShorts)
 - bannedWords (optional): {{ $json.bannedWords }}
 
+## Search rules for SerpAPI
+
+You can use a Google Search tool called "SerpApi (Google Search)".
+
+When you call this tool:
+- ALWAYS restrict your search to the following trusted domains where possible.
+- Prefer results from these domains. Avoid low-quality, commercial or anonymous sources.
+
+Trusted domains whitelist:
+{{ $items("Get curated sources")
+    .filter(item => String(item.json.Active).trim() === '1')
+    .map(item => item.json.Domain)
+    .join(", ") }}
+
+When forming search queries, add filters like:
+- site:harvard.edu OR site:stanford.edu OR site:mayoclinic.org ...
+or include the domain name and topic in natural language.
+
+If you cannot find a result on a trusted domain, you may still use other sources BUT:
+- never rely on them for medical claims,
+- treat them as context only,
+- clearly hedge (“some sources suggest…”) in your wording.
+
 ---
 
 ## Output format
