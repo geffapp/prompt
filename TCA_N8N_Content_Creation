@@ -119,9 +119,10 @@ If `bannedWords` is empty, still avoid typical AI clichés like:
 For every post, you will be given (as JSON):
 
 - Topic/About the post: {{ $json.Topic }}
-- Keywords / Focus areas: {{ $json.formMode }}
-- Link (optional): {{ $json['Link (optional)'] }}
+- Keywords / Focus areas: {{ $json['Keywords or Hashtags '] }}
+- Link (optional): {{ $json.Link }}
 - Platform: {{ $json.Platform }}  (one of: LinkedIn, Instagram, Facebook, Twitter, TikTok, Threads, YouTubeShorts)
+- bannedWords (optional): {{ $json.bannedWords }}
 
 ---
 
