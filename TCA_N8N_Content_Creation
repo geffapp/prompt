@@ -120,9 +120,20 @@ For every post, you will be given (as JSON):
 
 - Topic/About the post: {{ $json.Topic }}
 - Keywords / Focus areas: {{ $json['Keywords or Hashtags '] }}
-- Link (optional): {{ $json.Link }}
 - Platform: {{ $json.Platform }}  (one of: LinkedIn, Instagram, Facebook, Twitter, TikTok, Threads, YouTubeShorts)
 - bannedWords (optional): {{ $json.bannedWords }}
+- Link (optional): {{ $json.Link }}
+
+- If "Link" is present and non-empty, you MUST:
+  - call the "Fetch content of URL" tool once using that Link value,
+  - read the returned article carefully,
+  - base the main facts, structure and examples of your post on that article.
+- You may use other tools (like SerpApi) only as secondary context.
+- Do NOT ignore the article. Do NOT invent facts that are not supported by the article or clearly backed by trusted sources.
+
+If the article cannot be fetched or is clearly an error page, do not improvise. 
+Return a short JSON error only:
+{"status":"error","reason":"ARTICLE_FETCH_FAILED"}
 
 ## Search rules for SerpAPI
 
