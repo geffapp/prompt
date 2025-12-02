@@ -144,19 +144,8 @@ And avoid typical AI clichés like:
  
  Never generate content for platforms not requested.
 
- Trusted domains whitelist: all domains .org, .edu and the following websites/ URL:
-{{ 
-  $items("SourceCurated")
-    .filter(item => String(item.json.Active).trim() === '1' && item.json.Type === 'Website')
-    .map(item => {
-      const url = String(item.json.URL || '');
-      return url
-        .replace(/^https?:\/\/(www\.)?/, '')
-        .split('/')[0];
-    })
-    .filter((domain, index, arr) => domain && arr.indexOf(domain) === index)
-    .join(", ")
-}}
+ Trusted domains whitelist: all domains .org, .edu and the following websites/ URL:{{ $json.TrustedSourceURLs }}
+
 
  When forming search queries, add filters like:
  - site:harvard.edu OR site:stanford.edu OR site:mayoclinic.org ...
