@@ -1,0 +1,25 @@
+{
+  "name": "prompt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geffapp/prompt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geffapp/prompt/issues"
+  },
+  "homepage": "https://github.com/geffapp/prompt#readme",
+  "dependencies": {
+    "@notionhq/client": "^2.3.0",
+    "@supabase/supabase-js": "^2.93.3",
+    "dotenv": "^17.2.3"
+  }
+}
