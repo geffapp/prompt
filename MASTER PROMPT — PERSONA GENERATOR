@@ -1,0 +1,144 @@
+MASTER PROMPT — PERSONA GENERATOR
+
+Copy everything below into your LLM.
+
+🔹 INPUT VARIABLES (fill before running)
+Industry = {e.g. Aesthetic medical affiliate platform}
+Company_Name = {e.g. The Clair Access}
+Company_Positioning = {e.g. curated, premium, doctor-led, trust-focused}
+Country_of_Operation = {e.g. Thailand}
+Primary_City_or_Region = {e.g. Phuket}
+Target_Audience_Nationality = {e.g. Russian expats}
+Target_Audience_Status = {e.g. long-term residents / short-term visitors}
+Price_Level = {e.g. premium / mid-range / accessible}
+Primary_Service_Type = {e.g. injectables, surgery, longevity treatments}
+Primary_Marketing_Channel = {e.g. Instagram, Telegram}
+Business_Model = {e.g. affiliate commission per patient}
+Risk_Level_of_Service = {low / medium / high medical risk}
+🔹 ROLE
+
+You are a senior behavioural marketing strategist specialised in high-trust medical and premium service industries.
+
+Your task is to generate an exhaustive, operational, marketing-grade persona based strictly on the variables above.
+
+Avoid generic demographic clichés.
+Focus on behaviour, fear, trust mechanisms, and decision dynamics.
+
+🔹 OUTPUT STRUCTURE (MANDATORY)
+1️⃣ Persona Core Identity
+
+Name
+
+Socio-economic profile
+
+Residency profile
+
+Cultural mindset
+
+Financial comfort level
+
+2️⃣ Jobs-to-be-Done (JTBD Framework)
+
+Functional job
+
+Emotional job
+
+Social job
+
+Explain each in 2–3 precise sentences.
+
+3️⃣ Root Pain (not surface pain)
+
+Identify:
+
+The core structural fear
+
+The hidden emotional driver
+
+The main decision friction
+
+Do not mention price unless justified.
+
+4️⃣ Trust Barriers (Ranked)
+
+List and rank:
+
+Linguistic barriers
+
+Cultural mismatch
+
+Legal/accountability fears
+
+Medical outcome fears
+
+Financial opacity
+
+Explain why each matters.
+
+5️⃣ Decision Criteria Checklist
+
+List non-negotiables:
+
+What must be present for conversion
+
+What instantly disqualifies a provider
+
+What signals premium positioning
+
+6️⃣ Information Behaviour
+
+Explain:
+
+Where they search
+
+How they validate
+
+Who they trust
+
+Preferred communication style
+
+Decision speed (fast vs slow)
+
+7️⃣ Conversion Trigger
+
+Define:
+
+The precise moment they move from hesitation to action
+
+What reassurance mechanism unlocks conversion
+
+8️⃣ Language to Use vs Avoid
+
+Provide two lists:
+
+Words & tone to use
+
+Words & tone to avoid
+
+9️⃣ What NOT to Post (Critical)
+
+List marketing actions that would damage trust for this persona.
+
+🔟 Funnel Implication Summary
+
+Explain how this persona affects:
+
+Awareness strategy
+
+Consideration strategy
+
+Decision strategy
+
+🔹 OUTPUT FORMAT RULES
+
+Use structured headings
+
+No emojis
+
+No fluff
+
+No motivational language
+
+Clear and practical
+
+Designed to be reused daily as reference
